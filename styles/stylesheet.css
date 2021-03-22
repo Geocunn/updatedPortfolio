@@ -1,0 +1,90 @@
+h1 {
+  color: black;
+  font: 65px Tahoma, sans-serif;
+}
+h2 {
+  color: black;
+  font: 50px Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+h3 {
+  color: black;
+  font: 27px Tahoma, sans-serif;
+  margin-bottom: 0px;
+}
+main {
+  color: black;
+  font: 15px Tahoma, sans-serif;
+  margin-top: 0px;
+  padding-bottom: 30%;
+}
+
+img {
+  width: 35%;
+}
+
+.blogEntry p {
+  padding-bottom: 30px;
+  padding-right: 40%;
+}
+
+.navigation {
+  width: 100%;
+  overflow: auto;
+}
+
+.navigation a {
+  float: left;
+  padding-top: 12px;
+
+  padding-bottom: 6px;
+  width: 33.33%;
+  text-align: left;
+  color: black;
+  font: 16px Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .navigation a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.externalLinks {
+  width: 100%;
+  overflow: auto;
+  /* padding-top: 50%; */
+}
+
+.externalLinks a {
+  float: left;
+  padding-bottom: 12px;
+  padding-top: 6px;
+  width: 33.33%;
+  text-align: left;
+  color: black;
+  font: 16px Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.externalLinks a:hover {
+  background-color: black;
+  color: white;
+}
+
+.bio {
+  padding-right: 40%;
+}
+
+.pageIntro {
+  padding-right: 40%;
+}
